@@ -56,32 +56,6 @@ portfolio/
 
 Aucune installation de dépendance n'est requise. Vous pouvez lancer le site avec n'importe quel serveur HTTP statique :
 
-### Avec Python :
-```bash
-python -m http.server 8080
-```
-Puis ouvrez votre navigateur à l'adresse [http://localhost:8080](http://localhost:8080).
-
-### Avec l'extension VS Code Live Server :
-Ouvrez le dossier dans VS Code, faites un clic droit sur `index.html` et sélectionnez **Open with Live Server**.
-
----
-
-## Déploiement sur GitHub Pages
-
-1. Créez un dépôt nommé `portfolio` sur votre compte GitHub (`vigoRz-c`).
-2. Poussez la branche `main` :
-   ```bash
-   git remote add origin https://github.com/vigoRz-c/portfolio.git
-   git branch -M main
-   git push -u origin main
-   ```
-3. Rendez-vous dans **Settings** > **Pages** sur GitHub.
-4. Dans **Build and deployment**, sous **Branch**, sélectionnez `main` et `/ (root)`, puis cliquez sur **Save**.
-5. Le site est consultable en ligne à l'adresse :  
-   [https://vigoRz-c.github.io/portfolio/](https://vigoRz-c.github.io/portfolio/)
-
----
 
 ## Contact et liens
 
