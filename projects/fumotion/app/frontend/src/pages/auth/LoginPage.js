@@ -60,7 +60,7 @@ export default function LoginPage() {
       <div className="auth-container">
         <div className="auth-header">
           <Link to="/" className="auth-logo">
-            <span className="logo-icon">🚗</span>
+            <span className="logo-icon"></span>
             <span className="logo-text">Fumotion Amiens</span>
           </Link>
         </div>
@@ -74,7 +74,7 @@ export default function LoginPage() {
           <form onSubmit={handleSubmit} className="auth-form">
             {error && (
               <div className="error-message">
-                <span className="error-icon">⚠️</span>
+                <span className="error-icon">️</span>
                 {error}
               </div>
             )}
@@ -146,12 +146,12 @@ export default function LoginPage() {
 
         <div className="auth-info">
           <div className="info-card">
-            <span className="info-icon">🚗</span>
+            <span className="info-icon"></span>
             <h3>Trajets étudiants</h3>
             <p>Partagez vos trajets quotidiens dans Amiens avec d'autres étudiants</p>
           </div>
           <div className="info-card">
-            <span className="info-icon">💰</span>
+            <span className="info-icon"></span>
             <h3>Économisez</h3>
             <p>Réduisez vos frais de transport jusqu'à 70%</p>
           </div>

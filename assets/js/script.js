@@ -276,7 +276,7 @@ function initFormValidation() {
         });
         
         if (response.ok) {
-          showNotification('Message envoyé avec succès ! 🎉', 'success');
+          showNotification('Message envoyé avec succès !', 'success');
           form.reset();
         } else {
           showNotification("Erreur lors de l'envoi. Réessayez.", 'error');
@@ -286,7 +286,7 @@ function initFormValidation() {
       }
     } else {
       // Si pas encore configuré (ex: YOUR_FORM_ID encore présent)
-      showNotification('⚠️ Configurez votre ID Formspree réel dans le HTML pour activer le formulaire.', 'warning');
+      showNotification('Configurez votre ID Formspree réel dans le HTML pour activer le formulaire.', 'warning');
       console.log('Form data:', { name, email, message });
     }
   });
@@ -377,7 +377,7 @@ document.addEventListener('keydown', (e) => {
   
   if (konamiCode.join(',') === konamiSequence.join(',')) {
     document.body.style.animation = 'rainbow 2s linear infinite';
-    showNotification('🎮 Konami Code activé ! 🌈', 'success');
+    showNotification('Konami Code active !', 'success');
     
     setTimeout(() => {
       document.body.style.animation = '';

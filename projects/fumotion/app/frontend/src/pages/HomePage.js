@@ -22,7 +22,7 @@ export default function HomePage() {
       <nav className="navbar">
         <div className="navbar-container">
           <div className="navbar-brand" onClick={() => navigate("/")}>
-            <span className="brand-logo">🚗</span>
+            <span className="brand-logo"></span>
             <span className="brand-name">Fumotion</span>
           </div>
 
@@ -58,11 +58,11 @@ export default function HomePage() {
             <div className="search-card">
               <div className="search-tabs">
                 <button className="search-tab active">
-                  <span className="tab-icon">🔍</span>
+                  <span className="tab-icon"></span>
                   Trouver un trajet
                 </button>
                 <button className="search-tab">
-                  <span className="tab-icon">➕</span>
+                  <span className="tab-icon"></span>
                   Proposer un trajet
                 </button>
               </div>
@@ -71,7 +71,7 @@ export default function HomePage() {
                 <div className="form-row">
                   <div className="form-group">
                     <label className="form-label">
-                      <span className="label-icon">📍</span>
+                      <span className="label-icon"></span>
                       Départ
                     </label>
                     <input
@@ -85,7 +85,7 @@ export default function HomePage() {
 
                   <div className="form-group">
                     <label className="form-label">
-                      <span className="label-icon">🎯</span>
+                      <span className="label-icon"></span>
                       Arrivée
                     </label>
                     <input
@@ -99,7 +99,7 @@ export default function HomePage() {
 
                   <div className="form-group">
                     <label className="form-label">
-                      <span className="label-icon">📅</span>
+                      <span className="label-icon"></span>
                       Date
                     </label>
                     <input
@@ -112,7 +112,7 @@ export default function HomePage() {
 
                   <div className="form-group">
                     <label className="form-label">
-                      <span className="label-icon">👥</span>
+                      <span className="label-icon"></span>
                       Passagers
                     </label>
                     <select
@@ -198,21 +198,21 @@ export default function HomePage() {
           <div className="steps-grid">
             <div className="step-card">
               <div className="step-number">1</div>
-              <div className="step-icon">🔍</div>
+              <div className="step-icon"></div>
               <h3 className="step-title">Recherchez votre trajet</h3>
               <p className="step-description">Entrez votre point de départ, destination et date de voyage</p>
             </div>
 
             <div className="step-card">
               <div className="step-number">2</div>
-              <div className="step-icon">✅</div>
+              <div className="step-icon"></div>
               <h3 className="step-title">Réservez votre place</h3>
               <p className="step-description">Choisissez parmi les conducteurs vérifiés et réservez en ligne</p>
             </div>
 
             <div className="step-card">
               <div className="step-number">3</div>
-              <div className="step-icon">🚗</div>
+              <div className="step-icon"></div>
               <h3 className="step-title">Voyagez sereinement</h3>
               <p className="step-description">Rencontrez votre conducteur et profitez de votre trajet</p>
             </div>
@@ -225,7 +225,7 @@ export default function HomePage() {
           <div className="footer-grid">
             <div className="footer-column">
               <div className="footer-brand">
-                <span className="footer-logo">🚗</span>
+                <span className="footer-logo"></span>
                 <span className="footer-name">Fumotion</span>
               </div>
               <p className="footer-tagline">

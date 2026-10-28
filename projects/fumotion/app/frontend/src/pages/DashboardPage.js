@@ -91,7 +91,7 @@ export default function DashboardPage() {
       <header className="dashboard-header">
         <div className="header-content">
           <Link to="/" className="logo">
-            <span className="logo-icon">🚗</span>
+            <span className="logo-icon"></span>
             <span className="logo-text">Fumotion</span>
           </Link>
           
@@ -125,7 +125,7 @@ export default function DashboardPage() {
               className={`sidebar-btn ${activeTab === 'overview' ? 'active' : ''}`}
               onClick={() => setActiveTab('overview')}
             >
-              <span className="btn-icon">📊</span>
+              <span className="btn-icon"></span>
               Vue d'ensemble
             </button>
           </div>
@@ -136,14 +136,14 @@ export default function DashboardPage() {
               className={`sidebar-btn ${activeTab === 'trips' ? 'active' : ''}`}
               onClick={() => setActiveTab('trips')}
             >
-              <span className="btn-icon">🚗</span>
+              <span className="btn-icon"></span>
               Mes trajets
             </button>
             <button 
               className={`sidebar-btn ${activeTab === 'bookings' ? 'active' : ''}`}
               onClick={() => setActiveTab('bookings')}
             >
-              <span className="btn-icon">🎫</span>
+              <span className="btn-icon"></span>
               Mes réservations
             </button>
           </div>
@@ -154,7 +154,7 @@ export default function DashboardPage() {
               className={`sidebar-btn ${activeTab === 'profile' ? 'active' : ''}`}
               onClick={() => setActiveTab('profile')}
             >
-              <span className="btn-icon">👤</span>
+              <span className="btn-icon"></span>
               Profil
             </button>
           </div>
@@ -167,28 +167,28 @@ export default function DashboardPage() {
               <h1>Vue d'ensemble - Amiens</h1>
               <div className="stats-grid">
                 <div className="stat-card">
-                  <div className="stat-icon">🚗</div>
+                  <div className="stat-icon"></div>
                   <div className="stat-content">
                     <h3>{myTrips.length}</h3>
                     <p>Trajets proposés</p>
                   </div>
                 </div>
                 <div className="stat-card">
-                  <div className="stat-icon">🎫</div>
+                  <div className="stat-icon"></div>
                   <div className="stat-content">
                     <h3>{myBookings.length}</h3>
                     <p>Réservations effectuées</p>
                   </div>
                 </div>
                 <div className="stat-card">
-                  <div className="stat-icon">⭐</div>
+                  <div className="stat-icon"></div>
                   <div className="stat-content">
                     <h3>4.8</h3>
                     <p>Note moyenne</p>
                   </div>
                 </div>
                 <div className="stat-card">
-                  <div className="stat-icon">💰</div>
+                  <div className="stat-icon"></div>
                   <div className="stat-content">
                     <h3>€125</h3>
                     <p>Économisés ce mois</p>
@@ -200,12 +200,12 @@ export default function DashboardPage() {
                 <h2>Actions rapides</h2>
                 <div className="action-cards">
                   <Link to="/create-trip" className="action-card">
-                    <div className="action-icon">➕</div>
+                    <div className="action-icon"></div>
                     <h3>Proposer un trajet</h3>
                     <p>Créez un nouveau trajet dans Amiens et partagez vos frais</p>
                   </Link>
                   <Link to="/search" className="action-card">
-                    <div className="action-icon">🔍</div>
+                    <div className="action-icon"></div>
                     <h3>Trouver un trajet</h3>
                     <p>Recherchez un trajet pour vos déplacements dans Amiens</p>
                   </Link>
@@ -216,22 +216,22 @@ export default function DashboardPage() {
                 <h2>Destinations populaires à Amiens</h2>
                 <div className="destinations-grid">
                   <div className="destination-card">
-                    <span className="destination-icon">🏫</span>
+                    <span className="destination-icon"></span>
                     <h4>IUT Amiens</h4>
                     <p>Campus universitaire</p>
                   </div>
                   <div className="destination-card">
-                    <span className="destination-icon">🚉</span>
+                    <span className="destination-icon"></span>
                     <h4>Gare d'Amiens</h4>
                     <p>Centre de transport</p>
                   </div>
                   <div className="destination-card">
-                    <span className="destination-icon">🏛️</span>
+                    <span className="destination-icon">️</span>
                     <h4>Centre-ville</h4>
                     <p>Cathédrale, commerces</p>
                   </div>
                   <div className="destination-card">
-                    <span className="destination-icon">🛍️</span>
+                    <span className="destination-icon">️</span>
                     <h4>Glisy Shopping</h4>
                     <p>Zone commerciale</p>
                   </div>
@@ -251,7 +251,7 @@ export default function DashboardPage() {
               
               {myTrips.length === 0 ? (
                 <div className="empty-state">
-                  <div className="empty-icon">🚗</div>
+                  <div className="empty-icon"></div>
                   <h3>Aucun trajet proposé</h3>
                   <p>Commencez par proposer votre premier trajet dans Amiens</p>
                   <Link to="/create-trip" className="empty-action">
@@ -295,7 +295,7 @@ export default function DashboardPage() {
               
               {myBookings.length === 0 ? (
                 <div className="empty-state">
-                  <div className="empty-icon">🎫</div>
+                  <div className="empty-icon"></div>
                   <h3>Aucune réservation</h3>
                   <p>Vous n'avez pas encore réservé de trajet dans Amiens</p>
                   <Link to="/search" className="empty-action">
@@ -345,7 +345,7 @@ export default function DashboardPage() {
                     <h2>{user?.first_name} {user?.last_name}</h2>
                     <p>{user?.email}</p>
                     <p>Membre depuis {new Date(user?.created_at).getFullYear()}</p>
-                    <p className="location-info">📍 Étudiant à Amiens</p>
+                    <p className="location-info"> Étudiant à Amiens</p>
                   </div>
                 </div>
                 

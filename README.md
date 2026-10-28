@@ -1,25 +1,25 @@
-# 🪐 Portfolio — Loïc RESTOUT
+# Portfolio — Loïc RESTOUT
 
 > Portfolio personnel et professionnel d'étudiant en **3ème année de BUT Informatique à l'IUT d'Amiens**.  
 > Développeur passionné par le web, le génie logiciel et la modélisation mathématique.
 
-🌐 **Démo en ligne :** [vigoRz-c.github.io/portfolio](https://vigoRz-c.github.io/portfolio)
+**Démo en ligne :** [vigoRz-c.github.io/portfolio](https://vigoRz-c.github.io/portfolio)
 
 ---
 
-## ✨ Points forts & Fonctionnalités
+## Points forts et fonctionnalités
 
-- 🌌 **Direction artistique Outer Wilds :** Palette cosmique (espace profond, lueur feu de camp `#ff7a00`, cyan/violet quantique `#9b51e0`).
-- 🪐 **Simulation Canvas 2D interactive :** Moteur graphique animé du système solaire d'Outer Wilds (`Sablières`, `Âtrebois`, `Cravité`, `Léviathe`, `Sombreronces` et téléportation avec glitch de la `Lune Quantique`).
-- 🎓 **Compétences BUT Informatique :** Articulées autour des 6 compétences du Programme National (Réaliser, Optimiser, Administrer, Gérer les données, Conduire, Travailler en équipe).
-- 📂 **Fiches projets dynamiques :** Système modulaire généré via JavaScript sans duplication de code HTML (`projects/project.html` et `projects/source.html`).
-- 📄 **CV en ligne & format A4 imprimable :** Page dédiée (`cv/cv.html`) avec bouton d'impression/export PDF natif (`window.print()`).
-- 📱 **100% Responsive :** Navigation fluide, menu burger mobile et adaptation aux écrans smartphones, tablettes et desktop.
-- ⚡ **Zero Dependency :** Développé en HTML5, CSS3 et JavaScript Vanilla pur, ultra léger et sans build process lourd.
+- **Direction artistique Outer Wilds :** Palette cosmique inspirée de l'espace (espace profond, lueur feu de camp `#ff7a00`, cyan et violet quantique `#9b51e0`).
+- **Simulation Canvas 2D interactive :** Moteur graphique animé du système solaire d'Outer Wilds (Sablières, Âtrebois, Cravité, Léviathe, Sombreronces et téléportation avec effet de glitch de la Lune Quantique).
+- **Compétences BUT Informatique :** Articulées autour des 6 compétences du Programme National (Réaliser, Optimiser, Administrer, Gérer les données, Conduire, Travailler en équipe).
+- **Fiches projets dynamiques :** Système modulaire généré via JavaScript sans duplication de code HTML (`projects/project.html` et `projects/source.html`).
+- **CV en ligne et format A4 imprimable :** Page dédiée (`cv/cv.html`) avec bouton d'impression et d'export PDF natif (`window.print()`).
+- **100% Responsive :** Navigation fluide, menu mobile et adaptation complète aux écrans smartphones, tablettes et ordinateurs.
+- **Zero Dependency :** Développé en HTML5, CSS3 et JavaScript Vanilla pur, sans framework lourd ni étape de compilation obligatoire.
 
 ---
 
-## 📁 Architecture du projet
+## Architecture du projet
 
 ```text
 portfolio/
@@ -52,7 +52,7 @@ portfolio/
 
 ---
 
-## 🚀 Lancement en local
+## Lancement en local
 
 Aucune installation de dépendance n'est requise. Vous pouvez lancer le site avec n'importe quel serveur HTTP statique :
 
@@ -67,7 +67,7 @@ Ouvrez le dossier dans VS Code, faites un clic droit sur `index.html` et sélect
 
 ---
 
-## 📡 Déploiement sur GitHub Pages
+## Déploiement sur GitHub Pages
 
 1. Créez un dépôt nommé `portfolio` sur votre compte GitHub (`vigoRz-c`).
 2. Poussez la branche `main` :
@@ -78,12 +78,12 @@ Ouvrez le dossier dans VS Code, faites un clic droit sur `index.html` et sélect
    ```
 3. Rendez-vous dans **Settings** > **Pages** sur GitHub.
 4. Dans **Build and deployment**, sous **Branch**, sélectionnez `main` et `/ (root)`, puis cliquez sur **Save**.
-5. Le site sera automatiquement en ligne sur :  
-   👉 `https://vigoRz-c.github.io/portfolio/`
+5. Le site est consultable en ligne à l'adresse :  
+   [https://vigoRz-c.github.io/portfolio/](https://vigoRz-c.github.io/portfolio/)
 
 ---
 
-## 📬 Contact & Liens
+## Contact et liens
 
 - **Email :** [loic.res67@gmail.com](mailto:loic.res67@gmail.com)
 - **LinkedIn :** [Loïc RESTOUT](https://www.linkedin.com/in/lo%C3%AFc-restout-30027933a/)

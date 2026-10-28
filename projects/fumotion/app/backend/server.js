@@ -97,9 +97,9 @@ async function startServer() {
     console.log('Base de données initialisée avec succès');
     
     app.listen(PORT, () => {
-      console.log(`🚀 Backend server is running on http://localhost:${PORT}`);
-      console.log(`📊 Health check: http://localhost:${PORT}/api/health`);
-      console.log(`🔧 Environment: ${process.env.NODE_ENV || 'development'}`);
+      console.log(` Backend server is running on http://localhost:${PORT}`);
+      console.log(` Health check: http://localhost:${PORT}/api/health`);
+      console.log(` Environment: ${process.env.NODE_ENV || 'development'}`);
     });
   } catch (error) {
     console.error('Erreur lors du démarrage du serveur:', error);
@@ -109,13 +109,13 @@ async function startServer() {
 
 // Gestion propre de l'arrêt du serveur
 process.on('SIGINT', () => {
-  console.log('\n📴 Arrêt du serveur...');
+  console.log('\n Arrêt du serveur...');
   db.close();
   process.exit(0);
 });
 
 process.on('SIGTERM', () => {
-  console.log('\n📴 Arrêt du serveur...');
+  console.log('\n Arrêt du serveur...');
   db.close();
   process.exit(0);
 });

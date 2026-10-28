@@ -41,12 +41,12 @@ Avant de commencer, assurez-vous d'avoir installé :
 ### Vérification des prérequis
 
 ```bash
-node --version    # doit afficher v16+ 
+node --version    # doit afficher v16+
 npm --version     # doit afficher 8+
 git --version     # doit afficher 2+
 ```
 
-## ⚡ Installation rapide
+## Installation rapide
 
 ### 1. Cloner le projet
 
@@ -68,7 +68,7 @@ npm install
 cd app/backend
 npm install
 
-# Frontend  
+# Frontend
 cd ../frontend
 npm install
 
@@ -103,7 +103,7 @@ Cette commande lance simultanément :
 - **Backend** sur `http://localhost:5000`
 - **Frontend** sur `http://localhost:3000`
 
-## 🔧 Scripts disponibles
+## Scripts disponibles
 
 ### Développement
 ```bash
@@ -141,11 +141,11 @@ src/
 ```
 
 **Fonctionnalités clés :**
-- 🔐 **Authentification** : Inscription/Connexion des utilisateurs
-- 🗺️ **Gestion des voyages** : Création, modification, suppression de trips
-- 📅 **Réservations** : Système de booking intégré
-- 📱 **Responsive** : Interface adaptative mobile/desktop
-- 🔄 **État global** : Gestion centralisée avec Context API
+- **Authentification** : Inscription et connexion des utilisateurs
+- **Gestion des voyages** : Création, modification, suppression de trips
+- **Réservations** : Système de booking intégré
+- **Responsive** : Interface adaptative mobile et desktop
+- **État global** : Gestion centralisée avec Context API
 
 ### Backend (Express.js)
 
@@ -171,10 +171,10 @@ GET    /api/bookings          # Mes réservations
 ```
 
 **Middlewares :**
-- 🛡️ **CORS** : Gestion des requêtes cross-origin
-- 🔒 **Authentification JWT** : Protection des routes
-- 📝 **Logging** : Traçabilité des requêtes
-- 🚫 **Gestion d'erreurs** : Réponses d'erreur standardisées
+- **CORS** : Gestion des requêtes cross-origin
+- **Authentification JWT** : Protection des routes
+- **Logging** : Traçabilité des requêtes
+- **Gestion d'erreurs** : Réponses d'erreur standardisées
 
 ### Base de données
 
@@ -184,12 +184,12 @@ GET    /api/bookings          # Mes réservations
 - `bookings` : Réservations effectuées
 - `categories` : Catégories de voyages
 
-## 🔄 Flux de données
+## Flux de données
 
 ```
-Frontend (React) → API Calls → Backend (Express) → Database
-     ↑                                               ↓
-     ←←←←←←← JSON Response ←←←←←←← Query Results ←←←←←←
+Frontend (React) -> API Calls -> Backend (Express) -> Database
+     ^                                                   |
+     <----------- JSON Response <------- Query Results ---
 ```
 
 1. **L'utilisateur** interagit avec l'interface React
@@ -231,7 +231,7 @@ npm start
 - Consultez l'onglet **Console** pour les erreurs
 - Vérifiez l'onglet **Network** pour les requêtes API
 
-## 🚀 Déploiement
+## Déploiement
 
 ### Développement local
 ```bash
@@ -250,15 +250,13 @@ npm start
 .\scripts\build.ps1   # Build production
 ```
 
-## 🤝 Contribution
+## Contribution
 
-
-1. Créez une branche feature (`git checkout -b feature/amazing-feature`)
-2. Committez vos changements (`git commit -m 'Add amazing feature'`)
-3. Push sur la branche (`git push origin feature/amazing-feature`)
+1. Créez une branche feature (`git checkout -b feature/ma-fonctionnalite`)
+2. Committez vos changements (`git commit -m 'Add ma-fonctionnalite'`)
+3. Push sur la branche (`git push origin feature/ma-fonctionnalite`)
 4. Ouvrez une Pull Request
 
-## 🆘 Support
+## Support
 
-En cas de problème :
-- ah ouais les gars 
+En cas de problème, consultez la documentation dans le dossier `docs/` ou ouvrez une issue sur le dépôt.

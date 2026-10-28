@@ -83,7 +83,7 @@ export default function RegisterPage() {
       <div className="auth-container">
         <div className="auth-header">
           <Link to="/" className="auth-logo">
-            <span className="logo-icon">🚗</span>
+            <span className="logo-icon"></span>
             <span className="logo-text">Fumotion Amiens</span>
           </Link>
         </div>
@@ -97,7 +97,7 @@ export default function RegisterPage() {
           <form onSubmit={handleSubmit} className="auth-form">
             {error && (
               <div className="error-message">
-                <span className="error-icon">⚠️</span>
+                <span className="error-icon">️</span>
                 {error}
               </div>
             )}
@@ -254,12 +254,12 @@ export default function RegisterPage() {
 
         <div className="auth-info">
           <div className="info-card">
-            <span className="info-icon">🎓</span>
+            <span className="info-icon"></span>
             <h3>Réservé aux étudiants</h3>
             <p>Fumotion Amiens est exclusivement destiné aux étudiants des établissements amiénois</p>
           </div>
           <div className="info-card">
-            <span className="info-icon">🔒</span>
+            <span className="info-icon"></span>
             <h3>Sécurisé</h3>
             <p>Vos données sont protégées et votre identité étudiante est vérifiée</p>
           </div>
