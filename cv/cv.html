@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Loïc RESTOUT</title>
+
+    <!-- Polices Google : Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Fichier CSS externe -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Barre d'actions supérieure : retour portfolio et téléchargement PDF -->
+    <nav class="cv-actions-bar" aria-label="Actions du CV">
+        <a href="../index.html" class="cv-action-btn">
+            <i class="fas fa-arrow-left"></i> Retour au portfolio
+        </a>
+        <button type="button" onclick="window.print()" class="cv-action-btn cv-action-btn-primary">
+            <i class="fas fa-print"></i> Télécharger / Imprimer en PDF
+        </button>
+    </nav>
+
+    <div class="cv-container">
+        <!-- ================= Colonne Gauche ================= -->
+        <aside class="left-column">
+            <!-- Photo -->
+            <div class="profile-container">
+                <img src="IMG_20251013_133218 (1).jpg" alt="Loïc RESTOUT" class="profile-pic">
+            </div>
+
+            <!-- Contact -->
+            <h2>Contact</h2>
+            <ul class="contact-list">
+                <li class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    loic.res67@gmail.com
+                </li>
+                <li class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    06 59 88 57 09
+                </li>
+                <li class="contact-item">
+                    <i class="fas fa-birthday-cake"></i>
+                    19 ans
+                </li>
+                <li class="contact-item">
+                    <i class="fas fa-car"></i>
+                    Permis B - véhiculé
+                </li>
+                <li class="contact-item">
+                    <i class="fa-brands fa-github"></i>
+                    github.com/vigoRz-c
+                </li>
+            </ul>
+
+            <!-- Compétences & Soft Skills -->
+            <h2>Compétences</h2>
+
+            <div class="skills-group">
+                <h3>Informatique</h3>
+                <div class="badges-container">
+                    <span class="badge">Python</span>
+                    <span class="badge">C#</span>
+                    <span class="badge">HTML/CSS</span>
+                    <span class="badge">PL/SQL</span>
+                    <span class="badge">Git</span>
+                </div>
+            </div>
+
+            <div class="skills-group">
+                <h3>Langue</h3>
+                <div class="badges-container">
+                    <span class="badge">Anglais B2+</span>
+                </div>
+            </div>
+
+            <div class="skills-group">
+                <h3>Bureautique</h3>
+                <div class="badges-container">
+                    <span class="badge">Canva</span>
+                    <span class="badge">Suite LibreOffice</span>
+                </div>
+            </div>
+
+            <div class="skills-group">
+                <h3>Soft Skills</h3>
+                <div class="badges-container">
+                    <span class="badge">Réactif</span>
+                    <span class="badge">Aisance relationnelle</span>
+                    <span class="badge">Communication</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- ================= Colonne Droite ================= -->
+        <main class="right-column">
+            <!-- En-tête / Nom -->
+            <header class="header">
+                <h1>Loïc RESTOUT</h1>
+                <div class="subtitle">Étudiant en Informatique — En recherche de stage</div>
+                <p style="margin-top: 15px; font-size: 14.5px; color: var(--text-main); line-height: 1.6;">
+                    Passionné par le développement et les nouvelles technologies, je suis activement à la recherche d'un
+                    stage. Curieux et autonome, je souhaite mettre en pratique mes compétences techniques (Python, C#,
+                    Web) et m'investir dans des projets concrets au sein d'une équipe dynamique.
+                </p>
+            </header>
+
+            <!-- Expérience -->
+            <h2>Expérience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <span class="timeline-title">Création d'un site e-commerce</span>
+                        <span class="timeline-date">Été 2025</span>
+                    </div>
+                    <div class="timeline-desc">
+                        Conception, développement et maintenance d'un site e-commerce de A à Z (lestroischats.net). Mise
+                        en place de l'interface utilisateur, gestion du catalogue et optimisation de l'expérience
+                        client. (Outil : Wix Studio)
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <span class="timeline-title">Stage d'observation de 3e</span>
+                        <span class="timeline-date">2020</span>
+                    </div>
+                    <div class="timeline-desc">
+                        Découverte de la gestion opérationnelle et logistique d'une infrastructure ferroviaire.
+                        Immersion dans le quotidien du chef d'équipe : suivi des protocoles de sécurité et coordination
+                        de terrain.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formations -->
+            <h2>Formations</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <span class="timeline-title">IUT d'Amiens</span>
+                        <span class="timeline-date">2025-2026</span>
+                    </div>
+                    <div class="timeline-desc">
+                        En 3ème année BUT informatique.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <span class="timeline-title">Lycée Condorcet Méru</span>
+                        <span class="timeline-date">2024</span>
+                    </div>
+                    <div class="timeline-desc">
+                        Baccalauréat général spécialité Mathématiques / Physique-Chimie.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Centres d'intérêt -->
+            <h2>Centres d'intérêt</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <span class="timeline-title">Mathématiques</span>
+                    </div>
+                    <div class="timeline-desc interest">
+                        Vif intérêt pour les mathématiques théoriques : lectures régulières, exploration de concepts
+                        logiques et algorithmiques complexes.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <span class="timeline-title">Informatique</span>
+                    </div>
+                    <div class="timeline-desc interest">
+                        Développement de scripts et de petits projets logiciels personnels. Veille technologique
+                        régulière sur les nouveaux outils et langages de programmation.
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

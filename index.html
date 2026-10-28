@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Loïc RESTOUT</title>
+  <meta name="description"
+    content="Portfolio de Loïc RESTOUT — Étudiant BUT Informatique, Développeur Web. Découvre mes projets et compétences en C#, HTML/CSS, PL/SQL." />
+  <meta name="author" content="Loïc RESTOUT" />
+  <meta name="theme-color" content="#1A1614" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vigoRz-c.github.io/portfolio" />
+  <meta property="og:title" content="Portfolio — Loïc RESTOUT" />
+  <meta property="og:description"
+    content="Étudiant BUT Informatique à l'IUT d'Amiens, passionné par le développement web et la création d'outils numériques." />
+  <meta property="og:image" content="https://vigoRz-c.github.io/portfolio/assets/images/photo.jpg" />
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/animations/solar-system.css">
+</head>
+
+<body>
+  <header class="site-header" id="header">
+    <div class="container">
+      <h1 id="site-name" class="logo">Loïc RESTOUT</h1>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-list" id="main-navigation">
+          <li><a href="#about" class="nav-link">À propos</a></li>
+          <li><a href="#journey" class="nav-link">Parcours</a></li>
+          <li><a href="#skills" class="nav-link">Compétences</a></li>
+          <li><a href="#experiences" class="nav-link">Expériences</a></li>
+          <li><a href="#reflection" class="nav-link">Synthèse</a></li>
+          <li><a href="#projects" class="nav-link">Projets</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu" aria-expanded="false"
+          aria-controls="main-navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="main-content">
+    <section id="hero" class="hero">
+      <canvas id="starsCanvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none;"></canvas>
+      <div class="hero-content">
+        <p class="hero-greeting">Bonjour, je suis</p>
+        <h2 class="hero-title"><span class="accent">Loïc RESTOUT</span></h2>
+        <p class="lead">Étudiant BUT Informatique · Développeur Web · Passionné de Maths</p>
+
+        <p class="hero-objective">Ce site est ma version web du portfolio. Il raconte mon parcours en BUT Informatique,
+          ce que j'ai construit et ce que j'en retiens.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-secondary">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <canvas id="solarSystemCanvas" style="width: 100%; height: 100%; display: block;"></canvas>
+      </div>
+    </section>
+
+    <section id="about" class="section-about">
+      <h3 class="section-title">À propos</h3>
+      <div class="about-content">
+        <div class="about-text">
+          <p id="about-text">Je suis en 3ème année de BUT Informatique à l'IUT d'Amiens. Ce qui me motive, c'est quand
+            un projet répond à un vrai besoin et qu'on voit rapidement le résultat côté utilisateur.</p>
+          <p>Dans ma façon de travailler, je commence toujours par cadrer le besoin, puis j'avance par étapes courtes.
+            Je préfère livrer une version claire qui fonctionne, puis l'améliorer, plutôt que viser la perfection dès la
+            première passe.</p>
+          <p>Je suis plutôt à l'aise quand il faut faire le lien entre la partie technique et la partie humaine du
+            projet. J'aime expliquer simplement ce que je fais et garder une communication directe avec l'équipe.</p>
+          <p>En dehors du code, les maths occupent une vraie place pour moi. Ça m'aide à garder une logique propre quand
+            un sujet devient dense ou ambigu.</p>
+          <p>Ma faiblesse attachante, c'est que je peux m'attarder trop longtemps sur les détails. Le point positif,
+            c'est que ça me pousse à rendre un travail propre, relu et assumé.</p>
+          <div class="quality-list" aria-label="Qualités principales">
+            <span class="skill-badge">Réactif</span>
+            <span class="skill-badge">Aisance relationnelle</span>
+            <span class="skill-badge">Communication</span>
+            <span class="skill-badge">Adaptabilité</span>
+            <span class="skill-badge">Esprit d'analyse</span>
+          </div>
+          <a href="cv/cv.html" class="btn btn-secondary">Voir mon CV en ligne</a>
+        </div>
+        <div class="about-image">
+          <img src="assets/images/photo.jpg" alt="Photo de Loïc RESTOUT" class="profile-img" loading="lazy"
+            decoding="async" width="1329" height="1443" />
+        </div>
+      </div>
+    </section>
+
+    <section id="journey" class="section-journey">
+      <h3 class="section-title">Parcours, formations et diplômes</h3>
+      <div class="timeline">
+        <article class="timeline-item">
+          <h4>IUT d'Amiens - BUT Informatique</h4>
+          <p class="timeline-meta">2024 - Aujourd'hui · Formation en cours</p>
+          <p>J'y rendorce mes compétences professionnelles et de développement. </p>
+        </article>
+        <article class="timeline-item">
+          <h4>Lycée Condorcet Méru - Baccalauréat général</h4>
+          <p class="timeline-meta">2021 - 2024 · Mention assez bien </p>
+          <p>Spécialités Mathématiques et Physique-Chimie.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section-skills">
+      <h3 class="section-title">Compétences</h3>
+      <p class="section-intro">Voici mes compétences, reliées aux attendus du Programme National du BUT Informatique et
+        à ce que j'ai pratiqué.</p>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h4>BUT - Réaliser un développement d'application</h4>
+          <div class="skill-list">
+            <span class="skill-badge">C#</span>
+            <span class="skill-badge">Java</span>
+            <span class="skill-badge">HTML / CSS / JS</span>
+            <span class="skill-badge">PHP</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>BUT - Optimiser des applications informatiques</h4>
+          <div class="skill-list">
+            <span class="skill-badge">React / Node.js</span>
+            <span class="skill-badge">Kotlin / Android Studio</span>
+            <span class="skill-badge">C++</span>
+            <span class="skill-badge">Oracle ERP </span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>BUT - Administrer des systèmes informatiques communicants complexes</h4>
+          <div class="skill-list">
+            <span class="skill-badge">Docker</span>
+            <span class="skill-badge">Bash / Shell</span>
+            <span class="skill-badge">Cisco Packet Tracer</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>BUT - Gérer des données de l'information</h4>
+          <div class="skill-list">
+            <span class="skill-badge">noSQL / MySQL</span>
+            <span class="skill-badge">Oracle PL/SQL</span>
+            <span class="skill-badge">MongoDB</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>BUT - Conduire un projet</h4>
+          <div class="skill-list">
+            <span class="skill-badge">Trello</span>
+            <span class="skill-badge">Méthodologie Agile / Scrum</span>
+            <span class="skill-badge">UML</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>BUT - Travailler dans une équipe informatique</h4>
+          <div class="skill-list">
+            <span class="skill-badge">Figma / canva</span>
+            <span class="skill-badge">Discord</span>
+            <span class="skill-badge">GitHub</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>Langues & Bureautique</h4>
+          <div class="skill-list">
+            <span class="skill-badge">Anglais B2</span>
+            <span class="skill-badge">Canva</span>
+            <span class="skill-badge">Suite LibreOffice</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>Soft Skills</h4>
+          <div class="skill-list">
+            <span class="skill-badge">Réactif</span>
+            <span class="skill-badge">Aisance relationnelle</span>
+            <span class="skill-badge">Communication</span>
+            <span class="skill-badge">Adaptabilité</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiences" class="section-experiences">
+      <h3 class="section-title">Ce que j'ai appris</h3>
+      <div class="info-grid">
+        <article class="info-card">
+          <h4>Expérience académique - SAE Fumobilite</h4>
+          <p>J'ai participé à la conception d'une application C# divisée en différentes couches, Interface, Système et
+            SQL. Travailler sur ce projet m'a permis d'apprendre à mieux structurer le développement avec une équipe.
+          </p>
+          <p class="evidence">Le résultat se traduit par une solution multi-projets avec des composants séparés et des
+            livrables complets.</p>
+        </article>
+        <article class="info-card">
+          <h4>Expérience professionnelle - LesTroisChats.net</h4>
+          <p>Ce travail en conditions réelles a couvert la migration et la refonte complète puis la maintenance d'un
+            site e-commerce. J'ai pu y développer mon autonomie, ma communication et mes compétences en suivi global.
+          </p>
+          <p class="evidence">L'aboutissement est un site en ligne fonctionnel qui évolue grâce à des ajustements
+            réguliers et continus.</p>
+        </article>
+        <article class="narrative-card">
+          <h4>Deux expériences qui m'ont marqué</h4>
+          <p>Le projet <strong>Fumobilite</strong> m'a donné l'opportunité d'aider au découpage analytique du travail et
+            à la clarification des rôles pour réduire les blocages au sein du groupe.</p>
+          <p>La mission <strong>LesTroisChats.net</strong> m'a appris à faire des compromis sur l'esthétique pour
+            privilégier la rapidité d'exécution et garantir un site globalement fonctionnel en conditions réelles.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="reflection" class="section-reflection">
+      <h3 class="section-title">Synthèse</h3>
+      <div class="info-grid">
+        <article class="info-card">
+          <h4>Ce que je retiens</h4>
+          <ul class="highlight-list">
+            <li>Je sais mieux passer d'un besoin à une solution claire et utilisable.</li>
+            <li>J'ai progressé sur l'équilibre entre technique, documentation et communication.</li>
+            <li>Je repère plus tôt les risques et je priorise mieux les actions importantes.</li>
+          </ul>
+        </article>
+        <article class="info-card">
+          <h4>Références</h4>
+          <ul class="highlight-list">
+            <li>Programme National du BUT Informatique comme cadre de référence.</li>
+            <li>Documents et livrables SAE réalisés pendant la formation.</li>
+            <li>Retours d'expérience issus des projets académiques et web.</li>
+          </ul>
+        </article>
+        <article class="info-card">
+          <h4>Profil</h4>
+          <p>Étudiant en BUT Informatique, orienté développement web et logiciel, avec une base solide en C#, JavaScript
+            et SQL.</p>
+          <h4>Atouts clés</h4>
+          <ul class="highlight-list">
+            <li>Des SAE qui m'ont appris à structurer et livrer un projet.</li>
+            <li>Un projet e-commerce réel créé et maintenu.</li>
+            <li>Une bonne capacité d'adaptation et un contact simple.</li>
+          </ul>
+          <a href="cv/cv.html" class="btn btn-primary">Voir mon CV complet</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section-projects">
+      <h3 class="section-title">Projets</h3>
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="sae">SAE</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+      </div>
+      <div id="projects-list" class="projects-grid">
+        <!-- Les cartes sont générées dynamiquement via assets/js/script.js -->
+      </div>
+    </section>
+
+    <section id="contact" class="section-contact">
+      <h3 class="section-title">Me contacter</h3>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <p>Besoin de quelqu'un ? N'hésitez pas à me contacter !</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <svg width="24" height="24" fill="currentColor">
+                <use href="#icon-email" />
+              </svg>
+              <a id="email-link" href="mailto:loic.res67@gmail.com">loic.res67@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <svg width="24" height="24" fill="currentColor">
+                <use href="#icon-linkedin" />
+              </svg>
+              <a href="https://www.linkedin.com/in/lo%C3%AFc-restout-30027933a/" target="_blank"
+                rel="noopener noreferrer">LinkedIn</a>
+            </div>
+            <div class="contact-item">
+              <svg width="24" height="24" fill="currentColor">
+                <use href="#icon-github" />
+              </svg>
+              <a href="https://github.com/vigoRz-c" target="_blank" rel="noopener noreferrer">GitHub @vigoRz-c</a>
+            </div>
+            <div class="contact-item">
+              <svg width="24" height="24" fill="currentColor">
+                <use href="#icon-email" />
+              </svg>
+              <span>06 59 88 57 09</span>
+            </div>
+            <div class="contact-item">
+              <svg width="24" height="24" fill="currentColor">
+                <use href="#icon-location" />
+              </svg>
+              <span>Amiens</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- IMPORTANT: Remplacez 'YOUR_FORM_ID' par votre véritable ID Formspree (ex: https://formspree.io/f/xbjqvabz) pour recevoir vos emails -->
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <h4 class="form-title">Me contacter</h4>
+          <p class="form-subtitle">Vous pouvez m'envoyer un message ici, je vous répondrai rapidement.</p>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Nom</label>
+              <input type="text" id="name" name="name" placeholder="Votre nom" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="votre@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Décrivez votre demande" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">Envoyer le message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Loïc RESTOUT — Tous droits réservés</p>
+      <div class="footer-links">
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SVG Icons -->
+  <svg style="display:none;">
+    <symbol id="icon-github" viewBox="0 0 24 24">
+      <path
+        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+    </symbol>
+    <symbol id="icon-external" viewBox="0 0 24 24">
+      <path
+        d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z" />
+    </symbol>
+    <symbol id="icon-email" viewBox="0 0 24 24">
+      <path
+        d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
+    </symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 24 24">
+      <path
+        d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+    </symbol>
+    <symbol id="icon-location" viewBox="0 0 24 24">
+      <path
+        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+    </symbol>
+  </svg>
+
+  <script src="assets/js/projects-data.js" defer></script>
+  <script src="assets/js/script.js" defer></script>
+  <script src="assets/js/outer-wilds.js" defer></script>
+</body>
+
+</html>

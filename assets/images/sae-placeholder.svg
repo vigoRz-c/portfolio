@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration SAE</title>
+  <desc id="desc">Illustration generique pour un projet SAE.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f2638"/>
+      <stop offset="100%" stop-color="#121a29"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <rect x="140" y="120" width="920" height="460" rx="24" fill="#202d43" stroke="#4f6f96" stroke-width="3"/>
+  <rect x="190" y="180" width="260" height="260" rx="16" fill="#162339"/>
+  <circle cx="320" cy="260" r="52" fill="#5f87ba"/>
+  <rect x="260" y="330" width="120" height="12" rx="6" fill="#8db1dc"/>
+  <rect x="500" y="190" width="500" height="24" rx="12" fill="#9fc0e5"/>
+  <rect x="500" y="232" width="440" height="16" rx="8" fill="#7ea3d1"/>
+  <rect x="500" y="270" width="470" height="16" rx="8" fill="#7ea3d1"/>
+  <rect x="500" y="308" width="410" height="16" rx="8" fill="#7ea3d1"/>
+  <rect x="500" y="360" width="180" height="52" rx="10" fill="#2e496c" stroke="#8ab0dd"/>
+  <text x="590" y="394" text-anchor="middle" fill="#d8e8fb" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700">SAE</text>
+</svg>
